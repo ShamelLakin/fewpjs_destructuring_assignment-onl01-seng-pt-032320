@@ -82,10 +82,10 @@ console.log(partner);
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
 
-const { k_name, k_color, song_2, song_4, k_job, k_partner } = k_muppet;
+const { k_name, k_color, song_2, song_4, k_job, k_partner } = k_muppet.k_album;
 console.log(k_color);
-console.log(song_2, song_4);
-// console.log(song_4);
+console.log(song_2);
+console.log(song_4);
 console.log(k_job);
 console.log(k_partner);
 
